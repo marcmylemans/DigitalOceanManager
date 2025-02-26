@@ -16,7 +16,7 @@ Setup Instructions
 Clone the Repository:
 
 ```bash
-git clone https://github.com/yourusername/your-repository.git
+https://github.com/marcmylemans/DigitalOceanManager.git
 cd your-repository
 ```
 
