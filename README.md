@@ -29,14 +29,15 @@ cd your-repository
 
 Edit the docker-compose.yml file to update environment variables as needed. For example, update the following:
 
-SECRET_KEY
-DATABASE_URL (for the web and celery services)
-ENCRYPTION_KEY
-CELERY_BROKER_URL and CELERY_RESULT_BACKEND
+* SECRET_KEY
+* DATABASE_URL (for the web and celery services)
+* ENCRYPTION_KEY
+* CELERY_BROKER_URL
+* CELERY_RESULT_BACKEND
+
 The provided sample uses these default values for production:
 
 ```
-diff
 - SECRET_KEY=your_prod_secret
 - DATABASE_URL=postgresql://youruser:yourpassword@db:5432/multi_tenant_db
 - ENCRYPTION_KEY=DaW0qjrXFChaGvzGF5kA-cUhJK3CMlwe3ll7sVhV4d4=
